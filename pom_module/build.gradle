@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.pd_week'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.pd_week:driver_factory:1.0-SNAPSHOT'
+
+    implementation 'commons-logging:commons-logging:1.2'
+}

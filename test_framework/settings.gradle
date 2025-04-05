@@ -1,0 +1,3 @@
+rootProject.name = 'test_framework'
+includeBuild '../driver_factory'
+includeBuild '../pom_module'
