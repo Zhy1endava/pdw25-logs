@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Execution Suite" parallel="methods" thread-count="2">
+  <listeners>
+    <listener class-name="org.pd_week.listeners.ExecutionListener"/>
+  </listeners>
+  <test name="XML_parallel_test">
+    <classes>
+      <class name="Page1ChromeTest"/>
+      <class name="Page2FirefoxTest"/>
+    </classes>
+  </test>
+</suite>

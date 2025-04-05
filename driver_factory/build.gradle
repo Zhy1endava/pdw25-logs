@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.pd_week'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // Selenium and testng dependencies
+    implementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
+    testImplementation 'org.testng:testng:7.11.0'
+}
+
+tasks.test {
+    useTestNG()
+}
