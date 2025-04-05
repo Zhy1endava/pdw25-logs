@@ -1,0 +1,23 @@
+# Ignore Gradle build output
+**/build/
+**/.gradle/
+
+# Ignore IntelliJ/Android Studio project files
+**/.idea/
+**/*.iml
+
+# Ignore Eclipse project files
+**/.classpath
+**/.project
+**/.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+**/*.log
+
+# Environment files
+**/.env
+
